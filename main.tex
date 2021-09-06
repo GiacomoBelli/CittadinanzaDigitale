@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage{url}
 \usepackage{makeidx}
 \makeindex
 \title{Cittadinanza digitale e tecnocivismo "Fake news"}
@@ -8,49 +9,122 @@
 \begin{document}
 \maketitle
 \section{Introduzione}
-In questo articolo esporrò il processo, storico e moderno, con il quale articoli e notizie vengono creati e come questi influenzano sia il processo di informatizzazione dei cittadini sia la potenza mediatica con il quale queste notizie sono in grado di cambiare il pensiero delle persone riguardo un determinato argomento.
-Il primo avvento documentato riguardo alla stampa è con l'uscita del libro "La bibbia di Gutenberg" nel 1455, grazie alla tecnica dei caratteri mobili.
+In questo articolo esporrò il processo, storico e moderno, con il quale articoli e notizie vengono creati e come questi influenzino sia il processo di informatizzazione dei cittadini sia la potenza mediatica con il quale queste notizie sono in grado di cambiare il pensiero delle persone riguardo un determinato argomento.
+Il primo avvento documentato riguardo alla stampa è con l'uscita del libro "La bibbia di Gutenberg" \cite{linzer2008gutenberg} nel 1455, grazie alla tecnica dei caratteri mobili.
 Inizialmente la stampa venne usata per diffondere per conto della chiesa il libro più diffuso al mondo ovvero la "Bibbia", soltanto in seguito le varie istituzioni governative hanno utilizzato la stampa come mezzo di propaganda per informare i cittadini riguardo alle vicende del paese e per accrescere il consenso popolare verso il proprio governo.
-Solo nel 1847 con l'avvento dello "Statuto Albertino" ci si avvicinò alla libertà di stampa e informazione di cui godiamo oggi.
-Tuttavia all'epoca le notizie venivano spesso ritoccate o inventate completamente, con lo scopo di influenzare la popolazione riguardo determinati argomenti.
+Solo nel 1847 con l'avvento dello "Statuto Albertino" ci si avvicinò alla libertà di stampa e informazione di cui godiamo oggi, tuttavia all'epoca le notizie venivano spesso ritoccate o inventate completamente, con lo scopo di influenzare la popolazione riguardo determinati argomenti.
 Oggi la situazione è decisamente cambiata anche se le notizie false sono ancora in circolazione, tuttavia a differenza del passato in cui il governo stesso era l'artefice delle falsità che venivano messe in circolazione, oggi abbiamo enti e istituzioni che possono verificare la veridicità dei documenti e posso attestare la natura e la sicurezza di quest'ultimi ad esempio "OMS", l'associazione mondiale della sanità o come "ITU", l'organizzazione internazionale per le telecomunicazioni.
+La domanda fondamentale alla quale cercheremo di dare riposta è: "Quali sono i requisiti per cui un particolare fornitore di informazioni può essere ritenuto attendibile?".
 \section{Lv 0}
-\subsection{Informazioni in formato digitale}
-Come è cambiato il modo di fare notizia con l'arrivo del digitale, informazioni digitalizzate, mass media privati e del governo e il ruolo che ha avuto internet.
-\subsection{"Fake news" over internet}
-Ruolo della rete nello storing and sharing di informazioni.
-\subsection{Mezzi di propagazione}
-Principali mezzi di propagazione di notizie, informazioni tramite la rete, informazioni real time e tecnologie.
+\subsection{Net neutrality}
+Secondo la definizione di \cite{crowcroft2007net}, la neutralità della rete interessa le reti a banda larga che forniscono accesso a Internet, servizi telefonici e trasmissioni televisive. Una rete viene considerata neutrale se non ci sono restrizioni ai dispositivi connessi e al loro funzionamento. In base a questo principio, gli ISP non possono bloccare, rallentare o segmentare l’accesso ai dati né far pagare gli utenti per ottenerlo in diverse forme e misure.
+Il concetto di net neutrality è molto interessante per quello che riguarda l'accesso ai principali mezzi di informazione in quanto non possiamo essere sicuri che ogni utente abbia le stesse possibilità di accesso alle informazioni.
+Ci sono diversi aspetti che devono essere considerati come:
+\begin{itemize}
+    \item Banda a disposizione
+    \item Limitazioni da firewall
+    \item Locazione
+\end{itemize}
+Per quanti riguarda la banda a disposizione, esiste la possibilità di non poter accedere a determinati servizi di informazioni che distribuiscono informazioni in formati che possono essere molto pesanti e non accessibili a tutti i cittadini come potrebbe essere un servizio di live streaming.
+Anche il firewall potrebbe comportare una limitazioni, se parliamo ad esempio di una rete aziendale, gli utenti potrebbero essere tagliati fuori da determinate aree della rete proprio dagli stessi datori di lavoro.
+Infine anche il luogo in cui ci si trova potrebbe rivelarsi importante, basti pensare a stati come la Cina o la Corea che non permettono ai propri cittadini di utilizzare servizi come Google ma distribuiscono piuttosto un motore di ricerca prioritario che potrebbe essere soggetto a censura da parte del proprio ente governativo.
 \section{Lv 1}
 \subsection{Accessibilità dell'informazione}
 Metodi di accesso alle notizie da parte del cittadino, requisiti e limitazioni.
 \subsection{Sicurezza e verifica delle informazioni}
 Capire chi si occupa di fare informazione e come avviene la verifica delle notizie.
-Mezzi che ha a disposizione il cittadino per verificare le infromazioni nella rete.
+Mezzi che ha a disposizione il cittadino per verificare le informazioni nella rete.
 \section{Lv 2}
 \subsection{Diritto di informazione del cittadino}
 Diritto all'informazione, legislazione italiana e importanza di essere aggiornati sulle vicende del paese e nel mondo.
 \subsection{Servizi pubblici di informazione}
 Servizi a cui può accedere il cittadino per l'informazione e QoS (Quality of Services)
 \subsection{Identità digitale e SPID}
-Capire come funziona e il potenziale dell'identità digitale per la veridicità dei dati, campionamenti o studi che si effettuano.
+Come riportato dal sito dell'AGID \cite{Agid-2015} il Sistema Pubblico di Identità Digitale (SPID) è la chiave di accesso semplice, veloce e sicura ai servizi digitali delle amministrazioni locali e centrali. 
+Un’unica credenziale (username e password) che rappresenta l’identità digitale e personale di ogni cittadino, con cui è riconosciuto dalla Pubblica Amministrazione per utilizzare in maniera personalizzata e sicura i servizi digitali. 
+SPID consente anche l’accesso ai servizi pubblici degli stati membri dell’Unione Europea e di imprese o commercianti che l’hanno scelto come strumento di identificazione.
+Questo sistema di autenticazione è molto interessante sopratutto per quello che riguarda i documenti medico sanitari.
 \subsection{Lv 3}
 \subsection{Educazione del cittadino nell'utilizzo di internet}
-Educazione del cittadino all'utilizzo delle nuove tecnologie e della rete come mezzo per la propria informazione
-\subsection{Risposta delle istituzioni}
-Che ruolo hanno le istituzioni per aiutare il cittadino riguardo la veridicità delle informazioni mediante la trasparenza.
+Questo aspetto rappresenta uno dei funti focali sul quale è necessario concentrarsi per gettare le basi per i cittadini nell'utilizzo delle nuove tecnologie e per mettere in guardia riguardo alle pericolosità che la rete nasconde.
+Importante ricordare che con educazione non si intende il volere di assoggettare la popolazione sotto un'unica linea di pensiero ma bensì consentire ai singoli individui lo sviluppo del proprio pensiero critico basato sull'evidenza dei fatti.
+Secondo \cite{digital-citizenship} identifichiamo le componenti fondamentali della competenza digitale, suddividendole in cinque aree:
+\begin{itemize}
+    \item Informazione e data literacy: \\
+    \\
+    Ovvero la capacità di identificare le proprie esigenze di informazione, individuarle nella Rete, cogliere i dati e i contenuti adatti, giudicarne l’affidabilità e la rilevanza, saperli archiviare e gestire.
+    \item Comunicazione e collaborazione: \\
+    \\
+    Saper comunicare, interagire e collaborare attraverso le tecnologie digitali, con rispetto e consapevolezza delle diversità culturali e generazionali; saper gestire la propria identità e reputazione digitale, conoscere le norme di comportamento in Rete.
+    \item Creazione di contenuti digitali \\
+    \\
+    Saper creare e modificare contenuti digitali, anche integrando informazioni e contenuti in un corpus di conoscenze esistenti, applicando e rispettando copyright e licenze d’uso.
+    \item Sicurezza: \\
+    \\
+    Saper proteggere i dispositivi che si utilizzano, saper gestire i dati personali e la privacy propria e altrui negli ambienti digitali. Proteggere la salute - fisica e psicologica - e conoscere l’importanza delle tecnologie digitali per il benessere e l’inclusione sociale. Essere consapevoli dell’impatto ambientale delle tecnologie.
+    \item Problem solving: \\
+    \\
+    Capacità di identificare i problemi, riconoscere le necessità e le soluzioni possibili rispetto a compiti concettuali e situazioni problematiche negli ambienti digitali. Utilizzare gli strumenti digitali per innovare processi, prodotti e per essere aggiornati con l’evoluzione digitale.
+
+Grazie ai punti sopra elencati il singolo cittadino sarà appunto in grado di avere accesso alle nuove tecnologie, tutelare la sua privacy, avere la capacità di discendere le informazioni lette grazie agli strumenti di verifica che sono messi a disposizione, nei limiti del possibile e infine sviluppare un proprio pensiero critico riguardo ai dati e alle informazioni a cui ha accesso.
+\end{itemize}
 \subsection{Come smascherare le "fake news"}
-Tecniche immediate e specifiche (Skills) che si possono insegnare al cittadino per validare la veridicità di notizie e documenti amministrativi e non.
-\subsection{Social media come mezzo di informazione e propagazione}
-Studio su come i social media hanno superato giornali e televisione come principale mezzo di informazione del cittadino "medio".
+Un importante contributo alla smascherazione delle fake news viene dato da \cite{pulido2020new} in cui si riportano dei punti principali di questo studio, il quale si concentra maggiormente sull'aspetto sanitario.
+I punti fondamentali sono.
+\begin{itemize}
+    \item Campionamento, raccolta ed estrazione dei dati sui social media: \\
+    \\
+     Selezione di un campione adeguato di canali di social media per raccogliere i dati. I canali social per l'analisi sono Facebook, Twitter e Reddit e la loro selezione corrisponde a tre criteri: (1) rilevanza del numero di utenti attivi in milioni secondo i dati di Statista 2019: Facebook (2414), Twitter (330), Reddit (330); (2) disponibilità di messaggi pubblici; e (3) idoneità alla discussione online
+    \item Analisi dei dati: \\
+    \\
+    Mira a svelare la natura delle interazioni incentrate sulla disinformazione o su false informazioni sulla salute e la natura delle interazioni basate sull'evidenza sanitaria di impatti sociali potenziali o reali. 
+    \item Passaggi: \\
+    \\
+     Identificare quali tweet e i post di Facebook hanno ricevuto più attenzione e sviluppo dell'analisi qualitativa del contenuto per ogni messaggio selezionato 
+    \item Affidabilità interterrestre: \\
+    \\
+    L'analisi dei dati dei social media raccolti per la seconda analisi è stata condotta seguendo un metodo di analisi qualitativa del contenuto, in cui l'affidabilità si è basata su un processo di revisione paritaria.
+\end{itemize}
+\subsection{Social network come mezzo di informazione e propagazione}
+Specialmente negli ultimi anni i social network hanno stanno giocando un ruolo fondamentale nella componente di informatizzazione dei cittadini, come analizzato da Matteo Monti \cite{monti2017fake} Per quanto riguarda i social networks il 50,3\% dell’intera popolazione e il 77,4\% dei giovani
+under 30 sono iscritti al più famoso e diffuso social network: Facebook. Nell’ambito dell’informazione, stante ancora il primato dei mezzi d’informazione tradizionali (il 76,5\% utilizza i telegiornali;
+il 52\% i radio-giornali), il 51,4\% degli italiani utilizza anche motori di ricerca per informarsi e il 43,7\%
+si affida anche a Facebook. La percentuale s’inverte in relazione ai giovani fra cui Facebook è il
+principale strumento per informarsi (71,1\%), seguito dai motori di ricerca (68,7\%) e dai telegiornali.
+Possiamo facilmente dedurre da queste statistiche che una grossa fetta della popolazione usa i social network, in particolare Facebook, come principale mezzo di informazione.
+Cadere nella trappola delle fake news all'interno di un social network è molto facile in quanto molto spesso tramite l'ausilio di alcuni shortcut è possibile leggere solo una parte dell'articolo così che bufale e fake news risaltano tramite le inserzioni di Facebook grazie al grande numero di condivisioni che gli utenti effettuano. Una buona prassi infatti è sempre verificare le fonti dell'articolo, purtroppo si tratta di un processo che necessita tempo e molto spesso viene ignorato.
+Uno studio molto interessante viene riportato da \cite{titles} dove una ricerca condotta da studiosi informatici francesi e americani ha voluto approfondire questa tendenza, ed è emerso che il 59 per cento dei link di articoli condivisi sui social media non vengono cliccati: in altre parole, le persone che rilanciano notizie lo fanno solo in base ai titoli, senza leggerle. Il co-autore della ricerca sostiene che sia tipico del consumo moderno dell’informazione: la gente si forma un’opinione in base a un riassunto, o meglio ancora in base a un riassunto di un riassunto.
+
+
 \section{Lv 4}
 \subsection{Importanza dell'open data}
-Importanza dell'open data come incentivo alla trasparenza verso i cittadini o semplicemente agli utenti che usufruiscono di un determinato servizio, applicazione, tecnologia per la propria sicurezza e privacy. 
+Con open data \cite{murray2008open} intendiamo tutti i dati aperti che possono essere liberamente utilizzati, riutilizzati e ridistribuiti da chiunque, soggetti eventualmente alla necessità di citarne la fonte e di condividerli con lo stesso tipo di licenza con cui sono stati originariamente rilasciati.
+L'idea dell'open data si sposa molto bene con il concetto della trasparenza verso i cittadini dato che si basa su tre principi fondamentali che sono:
+\begin{itemize}
+    \item Disponibilità e accesso:\\
+    \\
+    Significa che i dati devono essere accessibili a tutti in termini di reperibilità prezzo e devono essere primi di restrizioni.
+    \item Riutilizzo e ridistribuzione: \\
+    \\
+    Intendiamo il fatto che deve esserci la possibilità di riutilizzare questi dati per creare nuove ricerche o per produrre nuovi studi su dati già esistenti.
+    \item Partecipazione universale: \\
+    \\
+    Significa che i dati devono essere privi di discriminazioni da parte di determinati gruppi di soggetti.
+\end{itemize}
+L'open data costituisce un punto molto importante sul quale riflettere perchè riduce la possibilità che determinate pubblicazioni ricerche o studi possano essere privati, non visionabili oppure che i dati possano essere soggetti a limitazioni di distribuzioni, questo può portare appunto a una "non chiarezza" delle informazioni e vedere negata la possibilità di verificare la correttezza di quei dati e così la possibilità di smentirli nel caso non siano veritieri o poco accurati.  
+
 \subsection{Codice amministrativo digitale CAD}
-CAD come mezzo legislativo per documenti e informazioni in formato digitale.
+Come riportato dall'agenzia per l'Italia digitale \cite{giacalone2007normativa}
+il Codice dell'Amministrazione Digitale (CAD) è un testo unico che riunisce e organizza le norme riguardanti l'informatizzazione della Pubblica Amministrazione nei rapporti con i cittadini e le imprese. Istituito con il decreto legislativo 7 marzo 2005, n. 82, è stato successivamente modificato e integrato prima con il decreto legislativo 22 agosto 2016 n. 179 e poi con il decreto legislativo 13 dicembre 2017 n. 217 per promuovere e rendere effettivi i diritti di cittadinanza digitale.
+Il discorso sul codice amministrativo digitale è molto interessante perchè questo codice detta delle regole che attestano la struttura e i regolamenti tecnici con il quale un documento deve essere scritto, verificato e pubblicato con lo scopo di essere accessibile e comprensibile per tutti i cittadini.
+Secondo il mio parere le istituzioni dovrebbero porre maggiore attenzione e conformarsi quanto più possibile al CAD così da avere dei parametri uguali per tutti i cittadini o imprese che decidono di informarsi riguardo un determinato argomento.
+
 \subsection{Firma digitale nei documenti}
-Discutere dell'importanza della firma digitale dei documenti, specialmente per quelli di natura scientifica.
-Si possono fare diversi esempi anche sulla speculazione di "fake news" riguardo studi che non sono mai stai approvati dalla comunità scientifica, che non erano firmati (almeno non con l'approvazione di un particolare dipartimento di ricerca) durante la pandemia COVID-19
+Come riportato da \cite{terranova1998firma} la firma digitale é una informazione che viene aggiuntad un documento informatico al fine di garantirne integrità provenienza. Sebbene l'uso per la sottoscrizione dei documenti formati su supporti informatici sia quello più naturale,la firma digitale può essere utilizzata per autenticare qualunque sequenza di simboli binari, indipendentemente dal loro significato.
+Una metodologia molto interessante con la quale si potrebbe pensare di arricchire le fonti che attestano la validità di un determinato documento o pubblicazione.
+Ad oggi la firma digitale è utilizzata per attestare la avvenuta visione o accettazione di un documento ufficiale di un determinato cittadino ma potrebbe essere anche introdotta da parte di una principale fonte di informazione o di determinati collaboratori che si occupano di fare notizia per facilitare la verifica della fonte da parte dei propri lettori così evitare il problema di una possibile manomissione da parte degli enti e la conseguente difficoltà nel risalire all'artefice della bufala.
 \section{Conclusioni}
 \printindex
+\bibliographystyle{plain}
+\bibliography{bibliografia}
 \end{document}
